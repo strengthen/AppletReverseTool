@@ -45,8 +45,6 @@ node ./wuWxapkg.js 分包路径 -s=主包路径
 4、如果生成的文件里不包含app.json文件
 说明你找的小程序，是大神开发的，已经做了反编译的安全措施，所以解密失败，这也是我发这篇文章的目的。不过这种大神目前还是比较少见的。
 
-## Telegram交流群
-> [https://t.me/iTelevisions](https://t.me/iTelevisions)
 ## 关注Telegram频道，获取最新通知
 > [https://t.me/iTelecast](https://t.me/iTelecast)
 
