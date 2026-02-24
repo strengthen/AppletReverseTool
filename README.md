@@ -2,10 +2,11 @@
 微信小程序逆向工具
 
 # 欢迎点击进入我的App Store主页下载本人已上架发布的应用。
-<a href='https://apps.apple.com/cn/developer/%E5%BC%BA-%E6%9B%BE/id1453461397'><img height='70' alt='Download from AppStore' src='https://img.whalenas.com:283/image/202207141215375.png' /></a>
-> [https://apps.apple.com/cn/developer/%E5%BC%BA-%E6%9B%BE/id1453461397](https://apps.apple.com/cn/developer/%E5%BC%BA-%E6%9B%BE/id1453461397)
+<a href='https://apps.apple.com/cn/developer/%E5%BC%BA-%E6%9B%BE/id1453461397'><img height='70' alt='Download from AppStore' src='https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg' /></a>
+> [App Store主页](https://apps.apple.com/cn/developer/%E5%BC%BA-%E6%9B%BE/id1453461397)
 # 关注Telegram频道，获取最新信息。
-> [https://t.me/iTelecast](https://t.me/iTelecast)
+<a href='https://t.me/iTelecast'><img height='70' alt='Download from AppStore' src='https://img.shields.io/badge/Telegram-iTelecast-26A5E4?style=for-the-badge&logo=telegram' /></a>
+> [t.me/iTelecast](https://t.me/iTelecast)
 
 ## 工具准备
 下载地址：https://github.com/strengthen/AppletReverseTool
