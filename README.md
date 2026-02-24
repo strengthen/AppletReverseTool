@@ -28,7 +28,7 @@ Applet 是存放小程序编译包的，
 加密后会存放在wxpack里面：
 再逆向
 正式用到开发的【wxappUnpacker】了。下面的操作，都是在cmd命令窗口中操作的，需要强调的是，必须在wxappUnpacker路径里才可以，简易方法是，直接在【wxappUnpacker】文件夹的地址栏里输入cmd即可。
-#### 1、逆向准备
+#### （1）、逆向准备
 打开逆向工具文件夹，直接输入cmd打开命令板：
 检查是否有node环境啊！！
 安装依赖，挨个执行：
@@ -39,15 +39,15 @@ npm install cssbeautify
 npm install vm2
 npm install uglify-es
 npm install js-beautify
-#### 2、正式逆向
+#### （2）、正式逆向
 把刚才wxpack下的解密包直接拖过来：
 bingo.bat 主包路径（可以直接拖入）
 编译后的文件，会保存在wxpack文件包下：
 OK，编译完成，接下来直接使用微信开发工具打开，即可学习前辈们的前端设计了，骚年。
-#### 3、可能的错误
+#### （3）、可能的错误
 如果在执行编译命令时报：
 this package is a subPackage which should be unpacked with -s=<MainDir>.
 说明这个是分包，打开小程序时生成了两个.wxapkg文件，编译另一个文件即可，编译分包和主包的命令是不一样的：
 node ./wuWxapkg.js 分包路径 -s=主包路径
-#### 4、如果生成的文件里不包含app.json文件
+#### （4）、如果生成的文件里不包含app.json文件
 说明你找的小程序，是大神开发的，已经做了反编译的安全措施，所以解密失败，这也是我发这篇文章的目的。不过这种大神目前还是比较少见的。
